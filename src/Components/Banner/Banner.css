@@ -1,0 +1,81 @@
+.banner-container {
+  background-image: url("./jumbotron.7888412.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 50rem;
+}
+
+.banner-title {
+  margin-top: 5rem;
+  font-size: 2.5rem;
+}
+
+.banner-title2 {
+  margin-bottom: 1.5rem;
+}
+
+.form-btn {
+  border: none;
+  background-color: #109a91;
+  color: white;
+  height: 2.7rem;
+  width: 6.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s all ease;
+  border-radius: 2.5px;
+}
+
+.form-btn:hover {
+  background-color: #09726b;
+}
+
+#input-email {
+  border: none;
+  outline: none;
+  height: 2.7rem;
+  width: 20rem;
+  padding: 0.9rem;
+  font-size: 1rem;
+  color: rgb(49, 47, 47);
+  box-shadow: 1px 1px 4px rgb(209, 204, 204);
+  border-radius: 2.5px;
+}
+
+#input-email::placeholder {
+  padding-right: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#input-email:focus {
+  outline: 1px solid skyblue;
+}
+
+form {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 850px) {
+  .banner-title{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner-title{
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .banner-title{
+    font-size: 1.4rem;
+  }
+}
+

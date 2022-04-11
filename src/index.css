@@ -1,0 +1,27 @@
+
+
+@font-face {
+  font-family: vazir;
+  src: url('./fonts/vazir-font-v16.1.0/Vazir-Bold.woff');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: vazir;
+}
+
+button {
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}

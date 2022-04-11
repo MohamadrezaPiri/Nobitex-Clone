@@ -1,0 +1,173 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 4rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-right: 3rem;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-item-price {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.first-li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s all;
+}
+
+.nav-link:hover {
+  color: dodgerblue;
+}
+
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.account-btn {
+  margin-right: 1rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.bell-btn {
+  border-radius: 50%;
+  padding: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #fff;
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.fa-bell {
+  font-size: 1rem;
+}
+
+.fa-user {
+  font-size: 1rem;
+}
+
+.nav-icons {
+  margin-left: 3rem;
+}
+
+.header-title:hover {
+  color: white;
+}
+
+.price-hamburger-menu {
+  position: absolute;
+  background-color: rgb(41, 38, 38);
+  top: 3.5rem;
+  right: 13rem;
+  z-index: 1;
+}
+
+.price-hamburger-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.price-hamburger-menu-item {
+  list-style-type: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.price-hamburger-menu-item:hover {
+  background-color: rgb(80, 74, 74);
+}
+
+.price-hamburger-menu-link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all ease;
+}
+
+.price-hamburger-menu-link:hover {
+  color: dodgerblue;
+}
+
+.no-hamburger-menu {
+  display: none;
+}
+
+.fa-sort-down {
+  position: absolute;
+  right: 21.1rem;
+  top: 1.4rem;
+}
+
+.hamburger-menu {
+  display: none;
+  cursor: pointer;
+  margin-right: 4rem;
+}
+
+.bar {
+  background-color: white;
+  width: 25px;
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  .nav-item {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .first-li {
+    display: flex;
+  }
+
+  .logo {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .header-title {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,97 @@
+.footer-list-container {
+  padding-top: 3.5rem;
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.nobitex {
+  display: flex;
+  margin-right: 1rem;
+  margin-left: 6rem;
+}
+
+.nobitex-footer-logo {
+  margin-left: 1rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.nobitex-footer-name {
+  color: white;
+  font-size: 2rem;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 10rem;
+}
+
+.about-list,
+.features-list,
+.support-list {
+  list-style-type: none;
+}
+
+.about-title,
+.features-footer-title,
+.support-title {
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.about-item,
+.features-item,
+.support-item {
+  padding-bottom: 1rem;
+  color: #a3a5a8;
+  cursor: pointer;
+  transition: 0.2s all ease;
+  font-size: 0.93rem;
+}
+.about-item:hover,
+.features-item:hover,
+.support-item:hover {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1200px) {
+  .nobitex {
+    display: none;
+  }
+
+  .footer-flex {
+    margin-right: 1rem;
+    gap: 14rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer-flex {
+    margin-right: 1rem;
+    gap: 11rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer-flex {
+    margin-right: 1rem;
+    gap: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-list-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .support-nobitex{
+    margin-left: auto;
+    margin-right: au;
+  }
+}

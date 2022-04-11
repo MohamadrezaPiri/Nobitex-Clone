@@ -1,0 +1,41 @@
+.social-media-container {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-btns {
+  display: flex;
+  gap: 5rem;
+  padding-bottom: 5rem;
+}
+
+.social-media-btn {
+  background-color: #4c505b;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-btn:hover {
+  background-color: black;
+  border: 2px solid white;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-telegram,
+.fa-instagram {
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .social-media-btns {
+    gap: 3.5rem;
+  }
+}

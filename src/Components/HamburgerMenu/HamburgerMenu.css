@@ -1,0 +1,52 @@
+.hamburger-menu-container {
+  background-color: #14151a;
+  height: 410px;
+  width: 100vw;
+  position: absolute;
+  opacity: 0.95;
+}
+
+.hamburger-menu-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburger-menu-item {
+  border-top: 1px solid rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hamburger-menu-item img {
+  margin-left: 1.5rem;
+  margin-right: 1.3rem;
+}
+
+.howToUse {
+  margin-left: 1.8rem !important;
+}
+
+.friends {
+  margin-left: 1.4rem !important;
+}
+
+.hamburger-menu-link {
+  color: white;
+}
+
+.nobiGift {
+  margin-right: 4.35rem;
+}
+
+
+
+.fa-arrow-right {
+  color: white;
+  font-size: 1.7rem;
+  margin-right: .3rem;
+  padding: 1rem;
+  cursor: pointer;
+}

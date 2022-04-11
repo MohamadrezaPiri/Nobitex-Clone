@@ -1,0 +1,169 @@
+.features-title {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.features-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-image-div {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 2px rgb(165, 160, 160);
+}
+
+.feature-image {
+  width: 2rem;
+  height: 2rem;
+}
+
+.feature {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.features-image {
+  width: 40rem;
+  height: 27rem;
+  padding-left: 1.5rem;
+}
+
+.feature-title {
+  font-weight: 400;
+}
+
+.feature-description {
+  color: #14151a;
+  font-size: 0.93rem;
+  text-align: right;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 27rem;
+}
+
+.features {
+  padding-right: 2rem;
+}
+
+@media (max-width: 1250px) {
+  .features-image {
+    width: 37rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .features-image {
+    width: 30rem;
+    height: 20rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .feature-description {
+    max-width: 32rem;
+    font-size: 0.76rem;
+    width: 20rem;
+  }
+
+  .feature-title {
+    font-size: 1rem;
+  }
+
+  .features {
+    margin-left: 2rem;
+  }
+
+  .features-image {
+    width: 27rem;
+    height: 18rem;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .feature-description {
+    width: 17rem;
+  }
+
+  .features {
+    margin-left: 0.3rem;
+  }
+}
+
+@media (max-width: 816px) {
+  .feature-description{
+    width: 14rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .features-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .features-image {
+    margin-right: auto;
+    margin-left: auto;
+    width: 21;
+    height: 16rem;
+  }
+
+  .features-title {
+    padding-bottom: 2.5rem;
+  }
+
+  .feature-description {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 565px) {
+  .feature-description {
+    width: 23rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .feature-description {
+    width: 20rem;
+  }
+
+  .features-title {
+    width: 25rem;
+    font-size: 1.2rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features-image {
+    width: 18rem;
+    height: 11rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .feature-description {
+    width: 15rem;
+  }
+  .features-title {
+    width: 22rem;
+  }
+}

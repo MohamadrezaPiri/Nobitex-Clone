@@ -1,0 +1,71 @@
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.stats-number {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transactions-volume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  color: #fff;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.unit {
+  color: #d3bdff;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.stats-title {
+  color: #fff;
+  font-size: 0.93rem;
+}
+
+@media (max-width: 750px) {
+  .number,
+  .unit {
+    font-size: 1.9rem;
+  }
+}
+
+@media(max-width:575px){
+  .stats-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .stats-number{
+    margin-bottom: 0;
+  }
+
+  .number,.unit{
+    font-size: 2.2rem;
+  }
+}

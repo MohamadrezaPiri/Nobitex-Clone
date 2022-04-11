@@ -1,0 +1,217 @@
+.table {
+  border-collapse: collapse;
+  background-color: #fff;
+  width: 100%;
+  max-width: 100vw;
+  border-radius: 10px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: -16.5rem;
+}
+
+.table-div {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100vw;
+}
+
+td {
+  border-bottom: 1px solid rgb(204, 191, 191);
+}
+
+thead {
+  border-bottom: 1px solid rgb(204, 191, 191);
+}
+
+thead tr {
+  height: 3rem;
+}
+
+tr {
+  height: 4rem;
+}
+
+.first-column {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding-right: 3rem;
+}
+
+.token-logo {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+.symbol {
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.token-name {
+  color: #a3a5a8;
+}
+
+.token-price-changes {
+  background-color: #ffecee;
+  color: #f26672;
+  font-weight: bold;
+  width: 4rem;
+  text-align: center;
+}
+
+.buy-sell {
+  border: 1px solid #00aea4;
+  background-color: transparent;
+  color: #00aea4;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+  padding: 5px 25px;
+  transition: 0.3s all ease;
+}
+
+.buy-sell:hover {
+  color: white;
+  background-color: #00aea4;
+}
+
+.weekly-chart {
+  width: 7rem;
+  margin-left: 3rem;
+}
+
+th {
+  color: #a3a5a8;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: right;
+}
+
+th.name {
+  padding-right: 3.5rem;
+}
+
+.show-all-td {
+  text-align: center;
+}
+
+.show-all {
+  display: inline;
+  color: #784ed1;
+  font-size: 0.93rem;
+  cursor: pointer;
+  margin-left: 0.3rem;
+}
+
+.fa-angle-left {
+  color: #a3a5a8;
+}
+
+.margin-left {
+  padding-left: 6rem;
+}
+
+/*انتخاب بازار*/
+
+.select {
+  background-color: white;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 24rem;
+  height: 3.5rem;
+  z-index: 10;
+}
+
+button.ir {
+  background-color: #85888f;
+  border: none;
+  color: white;
+  padding: 2px 1rem;
+  min-width: 6.25rem;
+  height: 2.25rem;
+  font-size: 0.93rem;
+  font-weight: 600;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.inactive {
+  background-color: #e3e4e5;
+  border: none;
+  color: #a3a5a8;
+  padding: 2px 1rem;
+  min-width: 6.25rem;
+  height: 2.25rem;
+  font-size: 0.93rem;
+  font-weight: 600;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+button.usdt {
+  background-color: #e3e4e5;
+  border: none;
+  color: #a3a5a8;
+  padding: 2px 1rem;
+  min-width: 6.25rem;
+  height: 2.25rem;
+  font-size: 0.93rem;
+  font-weight: 600;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.active {
+  background-color: #85888f;
+  border: none;
+  color: white;
+  padding: 2px 1rem;
+  min-width: 6.25rem;
+  height: 2.25rem;
+  font-size: 0.93rem;
+  font-weight: 600;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.select-text {
+  font-size: 0.93rem;
+  color: #14151a;
+  padding-bottom: 0.7rem;
+  padding-right: 0.5rem;
+  font-weight: 500;
+}
+
+.name-symbol {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .token-price {
+    padding-left: 1.5rem;
+  }
+}
+
+@media (max-width: 805px) {
+  .buy-sell {
+    padding: 5px 9px;
+    font-size: .9rem;
+  }
+
+  .weekly-chart {
+    width: 7rem;
+    margin-left: 1.7rem;
+  }
+
+  .margin-left{
+   padding-left: 3.5rem;
+  }
+}
